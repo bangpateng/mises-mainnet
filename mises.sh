@@ -122,6 +122,6 @@ sudo systemctl daemon-reload
 sudo systemctl enable misestmd
 sudo systemctl restart misestmd
 
-echo '=============== SETUP FINISHED ==================='
+echo '=============== SETUP FINISHED ===================' 
 echo -e 'To check logs: \e[1m\e[32mjournalctl -u misestmd -f -o cat\e[0m'
 echo -e "To check sync status: \e[1m\e[32mcurl -s localhost:${MISES_PORT}657/status | jq .result.sync_info\e[0m"
