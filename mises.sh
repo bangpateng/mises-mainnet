@@ -11,7 +11,7 @@ echo  "         |___/                            |___/  ";
 echo -e "\e[0m"
 echo "===================================================================" 
 
-echo -e '\e[36mGarapan :\e[39m' Loyal Testnet Convert Script by nodeist
+echo -e '\e[36mGarapan :\e[39m' Mises Mainnet
 echo -e '\e[36mTelegram Group :\e[39m' @bangpateng_group
 echo -e '\e[36mTelegram Channel :\e[39m' @bangpateng_airdrop
 echo -e '\e[36mYoutube :\e[39m' Bang Pateng
