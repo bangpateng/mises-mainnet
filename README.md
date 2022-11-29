@@ -149,6 +149,18 @@ misestmd tx distribution withdraw-all-rewards --from=$WALLET --chain-id=$MISES_C
 misestmd tx distribution withdraw-rewards $MISES_VALOPER_ADDRESS --from=$WALLET --commission --chain-id=$MISES_CHAIN_ID
 ```
 
+### Stop Node
+
+```
+sudo systemctl stop misestmd
+```
+
+### Restart Node
+
+```
+sudo systemctl restart misestmd
+```
+
 ### Hapus node
 ```
 sudo systemctl stop misestmd && \
