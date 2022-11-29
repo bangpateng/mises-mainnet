@@ -78,7 +78,7 @@ misestmd init $NODENAME --chain-id $MISES_CHAIN_ID
 curl https://e1.mises.site:443/genesis | jq .result.genesis > ~/.misestm/config/genesis.json
 
 # set peers and seeds
-PEERS=40a8318fa18fa9d900f4b0d967df7b1020689fa0@e1.mises.site:26656
+PEERS=40889503320199c676570b417b132755d0414332@rpc.gw.mises.site:26656
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.misestm/config/config.toml
 
 # config pruning
